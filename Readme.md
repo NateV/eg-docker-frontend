@@ -2,6 +2,11 @@
 
 Container for the frontend application of the Expungement Generator.
 
+This project contains a dockerfile that builds the frontend of the Expungment Generator. It builds the frontend from the NateV/ExpungementGenerator fork, which was modified from the original Expungment Generator to be more docker-friendly.
+
+The frontend container image is hosted on dockerhub at https://hub.docker.com/r/natev/eg-docker-frontend/
+
+The backend container image is available at https://hub.docker.com/r/natev/eg-docker-db/
 
 Basic usage of the frontend:
 
